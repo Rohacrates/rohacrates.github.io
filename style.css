@@ -1,6 +1,9 @@
-h4 {
+div {
 	font-family: Verdana, sans-serif;
 	left: 50%;
+	width: 200px;
+	height: 80px;
+	text-align: center;
 }
 
 p {
