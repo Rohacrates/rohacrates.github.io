@@ -5,7 +5,7 @@ div {
 	height: 80px;
 	text-align: center;
 	background-color: rgb(38, 217, 217);
-	padding-top: 35px;
+	vertical-align: center;
 }
 
 p {
