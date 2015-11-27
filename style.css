@@ -1,14 +1,47 @@
-div {
-	font-family: Verdana, sans-serif;
-	left: 50%;
-	width: 200px;
-	height: 80px;
-	text-align: center;
-	background-color: rgb(38, 217, 217);
-	vertical-align: center;
+body {
+	background-color: black;
 }
 
-p {
-	font-family: Verdana, sans-serif;
-	left: 50%;
+div {
+	/*font properties*/
+	font-family: Courier, sans-serif;
+	font-size: 40px;
+	color: #00ff00;
+	
+	/*div properties*/
+	width: 400px;
+	height: 80px;
+	vertical-align: middle;
+	line-height: 80px;
+	background-color: black;
+	border: 3px solid black;
+	padding-left: 5px;
+
+	/*animation properties*/
+	/*animation-name: flicker;*/
+    animation-duration: 0.05;
+    animation-iteration-count: infinite;
+}
+
+div:hover {
+	border: 3px solid #00ff00;
+}
+
+div:active {
+	background-color: #00ff00;
+}
+
+div.splash {
+	vertical-align: middle;
+	text-align: center;
+	line-height: 80px;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+@keyframes flicker {
+	from {opacity: 1;}
+	to {opacity: 0.8;}
 }
