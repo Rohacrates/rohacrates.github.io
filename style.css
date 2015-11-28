@@ -16,11 +16,22 @@ div {
 	background-color: black;
 	border: 3px solid black;
 	padding-left: 5px;
+}
 
-	/*animation properties*/
-	/*animation-name: flicker;*/
-    animation-duration: 0.05;
-    animation-iteration-count: infinite;
+div.scroll {
+	/*font properties*/
+	font-family: Courier, sans-serif;
+	font-size: 40px;
+	color: #00ff00;
+	
+	/*div properties*/
+	width: 400px;
+	height: 800px;
+	/*vertical-align: middle;*/
+	/*line-height: 80px;*/
+	background-color: black;
+	border: 3px solid black;
+	padding-left: 5px;
 }
 
 div:hover {
@@ -39,9 +50,4 @@ div.splash {
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
-}
-
-@keyframes flicker {
-	from {opacity: 1;}
-	to {opacity: 0.8;}
 }
